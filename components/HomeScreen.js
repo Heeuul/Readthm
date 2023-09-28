@@ -1,32 +1,17 @@
-import { Image, StyleSheet, View, Text } from "react-native";
-import { useEffect, useState, React } from "react";
+import { Image, StyleSheet, View } from "react-native";
+import { React } from "react";
 
 import useMusicNote from "../hooks/useMusicNote";
+import NoteButtons from "./NoteButtons";
 
 export default function HomeScreen() {
   const { imgURI } = useMusicNote();
-  const [img, SetImg] = useState(null);
-
-  function TestImage() {
-    // Alphabet: "A", "B", "C", "D", "E", "F"
-    // Octave: 0 ~ 8
-    // Pitch: "flat", "natural", "sharp"
-    // Clef: "bass", "treble"
-    // Image: URI
-
-    const img = require("../assets/images/notes/adjusted/trebleClef/naturals/treble_3C_natural.png");
-    return img;
-  }
-
-  useEffect(() => {
-    SetImg(TestImage());
-  }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <NoteButtons />
       <Image
-        style={{ width: 200, height: 200, resizeMode: "contain" }}
+        style={{ width: "80%", height: 200, resizeMode: "contain" }}
         source={{ uri: imgURI }}
       />
     </View>

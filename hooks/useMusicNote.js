@@ -6,6 +6,9 @@ import React, {
   useState,
 } from "react";
 
+const imgSourceURI =
+  "https://raw.githubusercontent.com/Heeuul/Readthm/main/assets/images/notes/adjusted/";
+
 const MusicNoteContext = createContext();
 export function MusicNoteProvider({ children }) {
   const [clef, SetClef] = useState("treble");
@@ -21,21 +24,17 @@ export function MusicNoteProvider({ children }) {
     let filename =
       clef + "_" + octave.toString() + alphabet + "_" + pitch + ".png";
 
-    let uri =
-      "https://raw.githubusercontent.com/Heeuul/Readthm/main/assets/images/notes/adjusted/" +
-      clefDir +
-      "/" +
-      pitchDir +
-      "/" +
-      filename;
-
+    let uri = imgSourceURI + clefDir + "/" + pitchDir + "/" + filename;
     SetImgURI(uri);
-    console.log(uri);
   }, [alphabet, octave, pitch, clef]);
 
   const noteMemo = useMemo(
     () => ({
       imgURI,
+      clef,
+      pitch,
+      octave,
+      alphabet,
       SetAlphabet,
       SetOctave,
       SetPitch,
