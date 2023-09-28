@@ -1,0 +1,172 @@
+\version "2.24.2" 
+
+%{ 
+    Bass clef note 0 
+%} 
+
+<< { \clef bass a,,, } \addlyrics { "A0-natural" } >> 
+<< { \clef bass ais,,, } \addlyrics { "A0-sharp" } >> 
+
+<< { \clef bass bes,,, } \addlyrics { "B0-flat" } >> 
+<< { \clef bass b,,, } \addlyrics { "B0-natural" } >> 
+<< { \clef bass bis,,, } \addlyrics { "B0-sharp" } >> 
+
+%{ 
+    Bass clef note 1 
+%} 
+
+<< { \clef bass ces,, } \addlyrics { "C1-flat" } >> 
+<< { \clef bass c,, } \addlyrics { "C1-natural" } >> 
+<< { \clef bass cis,, } \addlyrics { "C1-sharp" } >> 
+
+<< { \clef bass des,, } \addlyrics { "D1-flat" } >> 
+<< { \clef bass d,, } \addlyrics { "D1-natural" } >> 
+<< { \clef bass dis,, } \addlyrics { "D1-sharp" } >> 
+
+<< { \clef bass ees,, } \addlyrics { "E1-flat" } >> 
+<< { \clef bass e,, } \addlyrics { "E1-natural" } >> 
+<< { \clef bass eis,, } \addlyrics { "E1-sharp" } >> 
+
+<< { \clef bass fes,, } \addlyrics { "F1-flat" } >> 
+<< { \clef bass f,, } \addlyrics { "F1-natural" } >> 
+<< { \clef bass fis,, } \addlyrics { "F1-sharp" } >> 
+
+<< { \clef bass ges,, } \addlyrics { "G1-flat" } >> 
+<< { \clef bass g,, } \addlyrics { "G1-natural" } >> 
+<< { \clef bass gis,, } \addlyrics { "G1-sharp" } >> 
+
+<< { \clef bass aes,, } \addlyrics { "A1-flat" } >> 
+<< { \clef bass a,, } \addlyrics { "A1-natural" } >> 
+<< { \clef bass ais,, } \addlyrics { "A1-sharp" } >> 
+
+<< { \clef bass bes,, } \addlyrics { "B1-flat" } >> 
+<< { \clef bass b,, } \addlyrics { "B1-natural" } >> 
+<< { \clef bass bis,, } \addlyrics { "B1-sharp" } >> 
+
+%{ 
+    Bass clef note 2 
+%} 
+
+<< { \clef bass ces, } \addlyrics { "C2-flat" } >> 
+<< { \clef bass c, } \addlyrics { "C2-natural" } >> 
+<< { \clef bass cis, } \addlyrics { "C2-sharp" } >> 
+
+<< { \clef bass des, } \addlyrics { "D2-flat" } >> 
+<< { \clef bass d, } \addlyrics { "D2-natural" } >> 
+<< { \clef bass dis, } \addlyrics { "D2-sharp" } >> 
+
+<< { \clef bass ees, } \addlyrics { "E2-flat" } >> 
+<< { \clef bass e, } \addlyrics { "E2-natural" } >> 
+<< { \clef bass eis, } \addlyrics { "E2-sharp" } >> 
+
+<< { \clef bass fes, } \addlyrics { "F2-flat" } >> 
+<< { \clef bass f, } \addlyrics { "F2-natural" } >> 
+<< { \clef bass fis, } \addlyrics { "F2-sharp" } >> 
+
+<< { \clef bass ges, } \addlyrics { "G2-flat" } >> 
+<< { \clef bass g, } \addlyrics { "G2-natural" } >> 
+<< { \clef bass gis, } \addlyrics { "G2-sharp" } >> 
+
+<< { \clef bass aes, } \addlyrics { "A2-flat" } >> 
+<< { \clef bass a, } \addlyrics { "A2-natural" } >> 
+<< { \clef bass ais, } \addlyrics { "A2-sharp" } >> 
+
+<< { \clef bass bes, } \addlyrics { "B2-flat" } >> 
+<< { \clef bass b, } \addlyrics { "B2-natural" } >> 
+<< { \clef bass bis, } \addlyrics { "B2-sharp" } >> 
+
+%{ 
+    Bass clef note 3 
+%} 
+
+<< { \clef bass ces } \addlyrics { "C3-flat" } >> 
+<< { \clef bass c } \addlyrics { "C3-natural" } >> 
+<< { \clef bass cis } \addlyrics { "C3-sharp" } >> 
+
+<< { \clef bass des } \addlyrics { "D3-flat" } >> 
+<< { \clef bass d } \addlyrics { "D3-natural" } >> 
+<< { \clef bass dis } \addlyrics { "D3-sharp" } >> 
+
+<< { \clef bass ees } \addlyrics { "E3-flat" } >> 
+<< { \clef bass e } \addlyrics { "E3-natural" } >> 
+<< { \clef bass eis } \addlyrics { "E3-sharp" } >> 
+
+<< { \clef bass fes } \addlyrics { "F3-flat" } >> 
+<< { \clef bass f } \addlyrics { "F3-natural" } >> 
+<< { \clef bass fis } \addlyrics { "F3-sharp" } >> 
+
+<< { \clef bass ges } \addlyrics { "G3-flat" } >> 
+<< { \clef bass g } \addlyrics { "G3-natural" } >> 
+<< { \clef bass gis } \addlyrics { "G3-sharp" } >> 
+
+<< { \clef bass aes } \addlyrics { "A3-flat" } >> 
+<< { \clef bass a } \addlyrics { "A3-natural" } >> 
+<< { \clef bass ais } \addlyrics { "A3-sharp" } >> 
+
+<< { \clef bass bes } \addlyrics { "B3-flat" } >> 
+<< { \clef bass b } \addlyrics { "B3-natural" } >> 
+<< { \clef bass bis } \addlyrics { "B3-sharp" } >> 
+
+%{ 
+    Bass clef note 4 
+%} 
+
+<< { \clef bass ces' } \addlyrics { "C4-flat" } >> 
+<< { \clef bass c' } \addlyrics { "C4-natural" } >> 
+<< { \clef bass cis' } \addlyrics { "C4-sharp" } >> 
+
+<< { \clef bass des' } \addlyrics { "D4-flat" } >> 
+<< { \clef bass d' } \addlyrics { "D4-natural" } >> 
+<< { \clef bass dis' } \addlyrics { "D4-sharp" } >> 
+
+<< { \clef bass ees' } \addlyrics { "E4-flat" } >> 
+<< { \clef bass e' } \addlyrics { "E4-natural" } >> 
+<< { \clef bass eis' } \addlyrics { "E4-sharp" } >> 
+
+<< { \clef bass fes' } \addlyrics { "F4-flat" } >> 
+<< { \clef bass f' } \addlyrics { "F4-natural" } >> 
+<< { \clef bass fis' } \addlyrics { "F4-sharp" } >> 
+
+<< { \clef bass ges' } \addlyrics { "G4-flat" } >> 
+<< { \clef bass g' } \addlyrics { "G4-natural" } >> 
+<< { \clef bass gis' } \addlyrics { "G4-sharp" } >> 
+
+<< { \clef bass aes' } \addlyrics { "A4-flat" } >> 
+<< { \clef bass a' } \addlyrics { "A4-natural" } >> 
+<< { \clef bass ais' } \addlyrics { "A4-sharp" } >> 
+
+<< { \clef bass bes' } \addlyrics { "B4-flat" } >> 
+<< { \clef bass b' } \addlyrics { "B4-natural" } >> 
+<< { \clef bass bis' } \addlyrics { "B4-sharp" } >> 
+
+%{ 
+    Bass clef note 5 
+%} 
+
+<< { \clef bass ces'' } \addlyrics { "C5-flat" } >> 
+<< { \clef bass c'' } \addlyrics { "C5-natural" } >> 
+<< { \clef bass cis'' } \addlyrics { "C5-sharp" } >> 
+
+<< { \clef bass des'' } \addlyrics { "D5-flat" } >> 
+<< { \clef bass d'' } \addlyrics { "D5-natural" } >> 
+<< { \clef bass dis'' } \addlyrics { "D5-sharp" } >> 
+
+<< { \clef bass ees'' } \addlyrics { "E5-flat" } >> 
+<< { \clef bass e'' } \addlyrics { "E5-natural" } >> 
+<< { \clef bass eis'' } \addlyrics { "E5-sharp" } >> 
+
+<< { \clef bass fes'' } \addlyrics { "F5-flat" } >> 
+<< { \clef bass f'' } \addlyrics { "F5-natural" } >> 
+<< { \clef bass fis'' } \addlyrics { "F5-sharp" } >> 
+
+<< { \clef bass ges'' } \addlyrics { "G5-flat" } >> 
+<< { \clef bass g'' } \addlyrics { "G5-natural" } >> 
+<< { \clef bass gis'' } \addlyrics { "G5-sharp" } >> 
+
+<< { \clef bass aes'' } \addlyrics { "A5-flat" } >> 
+<< { \clef bass a'' } \addlyrics { "A5-natural" } >> 
+<< { \clef bass ais'' } \addlyrics { "A5-sharp" } >> 
+
+<< { \clef bass bes'' } \addlyrics { "B5-flat" } >> 
+<< { \clef bass b'' } \addlyrics { "B5-natural" } >> 
+<< { \clef bass bis'' } \addlyrics { "B5-sharp" } >> 

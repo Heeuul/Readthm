@@ -1,0 +1,200 @@
+\version "2.24.2" 
+
+%{ 
+    Treble clef note 2 
+%} 
+
+<< { \clef treble ces, } \addlyrics { "C2-flat" } >> 
+<< { \clef treble c, } \addlyrics { "C2-natural" } >> 
+<< { \clef treble cis, } \addlyrics { "C2-sharp" } >> 
+
+<< { \clef treble des, } \addlyrics { "D2-flat" } >> 
+<< { \clef treble d, } \addlyrics { "D2-natural" } >> 
+<< { \clef treble dis, } \addlyrics { "D2-sharp" } >> 
+
+<< { \clef treble ees, } \addlyrics { "E2-flat" } >> 
+<< { \clef treble e, } \addlyrics { "E2-natural" } >> 
+<< { \clef treble eis, } \addlyrics { "E2-sharp" } >> 
+
+<< { \clef treble fes, } \addlyrics { "F2-flat" } >> 
+<< { \clef treble f, } \addlyrics { "F2-natural" } >> 
+<< { \clef treble fis, } \addlyrics { "F2-sharp" } >> 
+
+<< { \clef treble ges, } \addlyrics { "G2-flat" } >> 
+<< { \clef treble g, } \addlyrics { "G2-natural" } >> 
+<< { \clef treble gis, } \addlyrics { "G2-sharp" } >> 
+
+<< { \clef treble aes, } \addlyrics { "A2-flat" } >> 
+<< { \clef treble a, } \addlyrics { "A2-natural" } >> 
+<< { \clef treble ais, } \addlyrics { "A2-sharp" } >> 
+
+<< { \clef treble bes, } \addlyrics { "B2-flat" } >> 
+<< { \clef treble b, } \addlyrics { "B2-natural" } >> 
+<< { \clef treble bis, } \addlyrics { "B2-sharp" } >> 
+
+%{ 
+    Treble clef note 3 
+%} 
+
+<< { \clef treble ces } \addlyrics { "C3-flat" } >> 
+<< { \clef treble c } \addlyrics { "C3-natural" } >> 
+<< { \clef treble cis } \addlyrics { "C3-sharp" } >> 
+
+<< { \clef treble des } \addlyrics { "D3-flat" } >> 
+<< { \clef treble d } \addlyrics { "D3-natural" } >> 
+<< { \clef treble dis } \addlyrics { "D3-sharp" } >> 
+
+<< { \clef treble ees } \addlyrics { "E3-flat" } >> 
+<< { \clef treble e } \addlyrics { "E3-natural" } >> 
+<< { \clef treble eis } \addlyrics { "E3-sharp" } >> 
+
+<< { \clef treble fes } \addlyrics { "F3-flat" } >> 
+<< { \clef treble f } \addlyrics { "F3-natural" } >> 
+<< { \clef treble fis } \addlyrics { "F3-sharp" } >> 
+
+<< { \clef treble ges } \addlyrics { "G3-flat" } >> 
+<< { \clef treble g } \addlyrics { "G3-natural" } >> 
+<< { \clef treble gis } \addlyrics { "G3-sharp" } >> 
+
+<< { \clef treble aes } \addlyrics { "A3-flat" } >> 
+<< { \clef treble a } \addlyrics { "A3-natural" } >> 
+<< { \clef treble ais } \addlyrics { "A3-sharp" } >> 
+
+<< { \clef treble bes } \addlyrics { "B3-flat" } >> 
+<< { \clef treble b } \addlyrics { "B3-natural" } >> 
+<< { \clef treble bis } \addlyrics { "B3-sharp" } >> 
+
+%{ 
+    Treble clef note 4 
+%} 
+
+<< { \clef treble ces' } \addlyrics { "C4-flat" } >> 
+<< { \clef treble c' } \addlyrics { "C4-natural" } >> 
+<< { \clef treble cis' } \addlyrics { "C4-sharp" } >> 
+
+<< { \clef treble des' } \addlyrics { "D4-flat" } >> 
+<< { \clef treble d' } \addlyrics { "D4-natural" } >> 
+<< { \clef treble dis' } \addlyrics { "D4-sharp" } >> 
+
+<< { \clef treble ees' } \addlyrics { "E4-flat" } >> 
+<< { \clef treble e' } \addlyrics { "E4-natural" } >> 
+<< { \clef treble eis' } \addlyrics { "E4-sharp" } >> 
+
+<< { \clef treble fes' } \addlyrics { "F4-flat" } >> 
+<< { \clef treble f' } \addlyrics { "F4-natural" } >> 
+<< { \clef treble fis' } \addlyrics { "F4-sharp" } >> 
+
+<< { \clef treble ges' } \addlyrics { "G4-flat" } >> 
+<< { \clef treble g' } \addlyrics { "G4-natural" } >> 
+<< { \clef treble gis' } \addlyrics { "G4-sharp" } >> 
+
+<< { \clef treble aes' } \addlyrics { "A4-flat" } >> 
+<< { \clef treble a' } \addlyrics { "A4-natural" } >> 
+<< { \clef treble ais' } \addlyrics { "A4-sharp" } >> 
+
+<< { \clef treble bes' } \addlyrics { "B4-flat" } >> 
+<< { \clef treble b' } \addlyrics { "B4-natural" } >> 
+<< { \clef treble bis' } \addlyrics { "B4-sharp" } >> 
+
+%{ 
+    Treble clef note 5 
+%} 
+
+<< { \clef treble ces'' } \addlyrics { "C5-flat" } >> 
+<< { \clef treble c'' } \addlyrics { "C5-natural" } >> 
+<< { \clef treble cis'' } \addlyrics { "C5-sharp" } >> 
+
+<< { \clef treble des'' } \addlyrics { "D5-flat" } >> 
+<< { \clef treble d'' } \addlyrics { "D5-natural" } >> 
+<< { \clef treble dis'' } \addlyrics { "D5-sharp" } >> 
+
+<< { \clef treble ees'' } \addlyrics { "E5-flat" } >> 
+<< { \clef treble e'' } \addlyrics { "E5-natural" } >> 
+<< { \clef treble eis'' } \addlyrics { "E5-sharp" } >> 
+
+<< { \clef treble fes'' } \addlyrics { "F5-flat" } >> 
+<< { \clef treble f'' } \addlyrics { "F5-natural" } >> 
+<< { \clef treble fis'' } \addlyrics { "F5-sharp" } >> 
+
+<< { \clef treble ges'' } \addlyrics { "G5-flat" } >> 
+<< { \clef treble g'' } \addlyrics { "G5-natural" } >> 
+<< { \clef treble gis'' } \addlyrics { "G5-sharp" } >> 
+
+<< { \clef treble aes'' } \addlyrics { "A5-flat" } >> 
+<< { \clef treble a'' } \addlyrics { "A5-natural" } >> 
+<< { \clef treble ais'' } \addlyrics { "A5-sharp" } >> 
+
+<< { \clef treble bes'' } \addlyrics { "B5-flat" } >> 
+<< { \clef treble b'' } \addlyrics { "B5-natural" } >> 
+<< { \clef treble bis'' } \addlyrics { "B5-sharp" } >> 
+
+%{ 
+    Treble clef note 6 
+%} 
+
+<< { \clef treble ces''' } \addlyrics { "C6-flat" } >> 
+<< { \clef treble c''' } \addlyrics { "C6-natural" } >> 
+<< { \clef treble cis''' } \addlyrics { "C6-sharp" } >> 
+
+<< { \clef treble des''' } \addlyrics { "D6-flat" } >> 
+<< { \clef treble d''' } \addlyrics { "D6-natural" } >> 
+<< { \clef treble dis''' } \addlyrics { "D6-sharp" } >> 
+
+<< { \clef treble ees''' } \addlyrics { "E6-flat" } >> 
+<< { \clef treble e''' } \addlyrics { "E6-natural" } >> 
+<< { \clef treble eis''' } \addlyrics { "E6-sharp" } >> 
+
+<< { \clef treble fes''' } \addlyrics { "F6-flat" } >> 
+<< { \clef treble f''' } \addlyrics { "F6-natural" } >> 
+<< { \clef treble fis''' } \addlyrics { "F6-sharp" } >> 
+
+<< { \clef treble ges''' } \addlyrics { "G6-flat" } >> 
+<< { \clef treble g''' } \addlyrics { "G6-natural" } >> 
+<< { \clef treble gis''' } \addlyrics { "G6-sharp" } >> 
+
+<< { \clef treble aes''' } \addlyrics { "A6-flat" } >> 
+<< { \clef treble a''' } \addlyrics { "A6-natural" } >> 
+<< { \clef treble ais''' } \addlyrics { "A6-sharp" } >> 
+
+<< { \clef treble bes''' } \addlyrics { "B6-flat" } >> 
+<< { \clef treble b''' } \addlyrics { "B6-natural" } >> 
+<< { \clef treble bis''' } \addlyrics { "B6-sharp" } >> 
+
+%{ 
+    Treble clef note 7 
+%} 
+
+<< { \clef treble ces'''' } \addlyrics { "C7-flat" } >> 
+<< { \clef treble c'''' } \addlyrics { "C7-natural" } >> 
+<< { \clef treble cis'''' } \addlyrics { "C7-sharp" } >> 
+
+<< { \clef treble des'''' } \addlyrics { "D7-flat" } >> 
+<< { \clef treble d'''' } \addlyrics { "D7-natural" } >> 
+<< { \clef treble dis'''' } \addlyrics { "D7-sharp" } >> 
+
+<< { \clef treble ees'''' } \addlyrics { "E7-flat" } >> 
+<< { \clef treble e'''' } \addlyrics { "E7-natural" } >> 
+<< { \clef treble eis'''' } \addlyrics { "E7-sharp" } >> 
+
+<< { \clef treble fes'''' } \addlyrics { "F7-flat" } >> 
+<< { \clef treble f'''' } \addlyrics { "F7-natural" } >> 
+<< { \clef treble fis'''' } \addlyrics { "F7-sharp" } >> 
+
+<< { \clef treble ges'''' } \addlyrics { "G7-flat" } >> 
+<< { \clef treble g'''' } \addlyrics { "G7-natural" } >> 
+<< { \clef treble gis'''' } \addlyrics { "G7-sharp" } >> 
+
+<< { \clef treble aes'''' } \addlyrics { "A7-flat" } >> 
+<< { \clef treble a'''' } \addlyrics { "A7-natural" } >> 
+<< { \clef treble ais'''' } \addlyrics { "A7-sharp" } >> 
+
+<< { \clef treble bes'''' } \addlyrics { "B7-flat" } >> 
+<< { \clef treble b'''' } \addlyrics { "B7-natural" } >> 
+<< { \clef treble bis'''' } \addlyrics { "B7-sharp" } >> 
+
+%{ 
+    Treble clef note 8 
+%} 
+
+<< { \clef treble ces''''' } \addlyrics { "C8-flat" } >> 
+<< { \clef treble c''''' } \addlyrics { "C8-natural" } >> 
