@@ -22,7 +22,7 @@ export function MusicNoteProvider({ children }) {
     let clefDir = clef + "Clef";
     let pitchDir = pitch + "s";
     let filename =
-      clef + "_" + octave.toString() + alphabet + "_" + pitch + ".png";
+      clef + "_" + alphabet + octave.toString() + "_" + pitch + ".png";
 
     let uri = imgSourceURI + clefDir + "/" + pitchDir + "/" + filename;
     SetImgURI(uri);
