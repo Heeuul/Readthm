@@ -26,6 +26,17 @@ export function MusicNoteProvider({ children }) {
 
     let uri = imgSourceURI + clefDir + "/" + pitchDir + "/" + filename;
     SetImgURI(uri);
+
+    console.log(
+      "Showing " +
+        alphabet +
+        octave.toString() +
+        " " +
+        pitch +
+        " on " +
+        clef +
+        " clef"
+    );
   }, [alphabet, octave, pitch, clef]);
 
   const noteMemo = useMemo(

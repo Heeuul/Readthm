@@ -1,5 +1,5 @@
 import { View, Button } from "react-native";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import useMusicNote from "../hooks/useMusicNote";
 
@@ -32,23 +32,35 @@ export default function NoteButtons() {
     }
   }
 
-  const letter = ["A", "B", "C", "D", "E", "F", "G"];
-  const [letterID, SetLetterID] = useState(2);
-  function NextOctave() {
-    SetOctave(octave + 1 < letter.length ? letterID + 1 : 0);
-  }
+  const letter = ["C", "D", "E", "F", "G", "A", "B"];
+  const [letterID, SetLetterID] = useState(0);
   function MoveUp() {
-    if (letterID + 1 < letter.length) {
+    if (
+      (clef === "bass" && alphabet === "G" && octave === 5) ||
+      (clef === "treble" && alphabet === "C" && octave === 8)
+    )
+      return;
+
+    if (alphabet === "B") {
+      SetLetterID(0);
+      SetOctave(octave + 1);
+    } else {
       SetLetterID(letterID + 1);
-      SetAlphabet(letter[letterID]);
     }
   }
   function MoveDown() {
-    if (letterID - 1 > 0) {
-      SetLetterID(letterID - 1);
-      SetAlphabet(letter[letterID]);
-    }
+    if (
+      (clef === "bass" && alphabet === "A" && octave === 0) ||
+      (clef === "treble" && alphabet === "C" && octave === 2)
+    )
+      return;
+
+    if (alphabet === "C") {
+      SetLetterID(letter.length - 1);
+      SetOctave(octave - 1);
+    } else SetLetterID(letterID - 1);
   }
+  useEffect(() => SetAlphabet(letter[letterID]), [letterID]);
 
   return (
     <View>
