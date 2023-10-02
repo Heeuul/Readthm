@@ -2,16 +2,21 @@ import { Image, StyleSheet, View } from "react-native";
 import { React } from "react";
 
 import useMusicNote from "../hooks/useMusicNote";
-import NoteButtons from "./NoteButtons";
+import NoteNavButtons from "./NoteNavButtons";
 
 export default function HomeScreen() {
   const { imgURI } = useMusicNote();
 
   return (
     <View style={styles.container}>
-      <NoteButtons />
+      <NoteNavButtons />
       <Image
-        style={{ width: "80%", height: 200, resizeMode: "contain" }}
+        style={{
+          width: "80%",
+          height: 200,
+          resizeMode: "contain",
+          margin: 15,
+        }}
         source={{ uri: imgURI }}
       />
     </View>
