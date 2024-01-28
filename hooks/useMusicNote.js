@@ -27,6 +27,7 @@ export function MusicNoteProvider({ children }) {
     let uri = imgSourceURI + clefDir + "/" + pitchDir + "/" + filename;
     SetImgURI(uri);
 
+    console.log(uri);
     console.log(
       "Showing " +
         alphabet +
