@@ -1,23 +1,21 @@
-import { Image, StyleSheet, View } from "react-native";
-import { React } from "react";
+import { View, Text, Button, StyleSheet } from "react-native";
+import React from "react";
 
-import useMusicNote from "../hooks/useMusicNote";
-import NoteNavButtons from "./NoteNavButtons";
-
-export default function HomeScreen() {
-  const { imgURI } = useMusicNote();
-
+export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <NoteNavButtons />
-      <Image
-        style={{
-          width: "80%",
-          height: 200,
-          resizeMode: "contain",
-          margin: 15,
+      <Text>HomeScreen</Text>
+      <Button
+        title={"Nav"}
+        onPress={() => {
+          navigation.navigate("Nav");
         }}
-        source={{ uri: imgURI }}
+      />
+      <Button
+        title={"Quiz"}
+        onPress={() => {
+          navigation.navigate("Quiz");
+        }}
       />
     </View>
   );

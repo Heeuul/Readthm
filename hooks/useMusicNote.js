@@ -7,7 +7,7 @@ import React, {
 } from "react";
 
 const imgSourceURI =
-  "https://raw.githubusercontent.com/Heeuul/Readthm/main/assets/images/notes/adjusted/";
+  "https://raw.githubusercontent.com/Heeuul/Readthm/main/assets/images/";
 
 const MusicNoteContext = createContext();
 export function MusicNoteProvider({ children }) {
@@ -22,7 +22,7 @@ export function MusicNoteProvider({ children }) {
     let clefDir = clef + "Clef";
     let pitchDir = pitch + "s";
     let filename =
-      clef + "_" + alphabet + octave.toString() + "_" + pitch + ".png";
+      clef + "_" + alphabet + octave.toString() + "_" + pitch + "_img.png";
 
     let uri = imgSourceURI + clefDir + "/" + pitchDir + "/" + filename;
     SetImgURI(uri);
